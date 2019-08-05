@@ -1,0 +1,42 @@
+
+Begin
+
+Step1: Accept the floor number from request is comming along with direction where the request person want to go.
+
+Step2: Find the lift going to same direction(Case 1), lift that are at rest or free and Lift moving in opposite direction(Case 2), but the the final destination of the lift is the request floor(Case 3).
+
+Step3: Case 1:                                     Case 2: 																Case 3:
+		
+		Calculate the distance between 				Calculate the distance between rest lifts                          Calculate the distance between lifts and req floor.
+		moving lifts and the req floor.				and the req floor.
+		
+Step 4:  In case 1:									In Case 2:															In Case 3:
+		          
+		 pick up the shortest distance              pick up the shortest distance lift position to req floor.           Pick up the shortest distance lift position to req floor.
+		 lift position to req floor.
+		 (Same_dir_shortest_dist)                   (Rest_shortest_dist)				                                 (Oppo_dir_shortest_dist)
+		 
+Step 5: Compare the least value among the Same_dir_shortest_dist, Rest_shortest_dist and Oppo_dir_shortest_dist:
+          Assign that corresponding lift to attain the request.
+		  
+Step 6: After reaching the floor, wait for user to go inside aceept the user req destination floor.
+	
+Step 7: Check for any abnormaility alarm:
+			 if alarm due to over weight halt the lift, until weight reduces to normal capacity.
+			 
+			 else if electrical abnormality then halt all the lift.
+			 
+			 else user from inside has press the alarm, halt the lift and send info to the control centre.
+			 
+		 else no abnormaility:
+			got to destination of the requested user.
+			
+Step 8: If req arrives: 
+			Then Goto Step 1.
+			
+		else If any lift is free but not at floor send it to floor.
+		
+Step 9: end.
+
+
+ 
