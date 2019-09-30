@@ -1,0 +1,19 @@
+•             In 2014, an open source web reporting platform was incorporated to provide real time dashboards and map based visualizations of important KPIs of rollout and operations
+
+•             In 2015, SESP added MDM VEE rules as an additional offering
+
+•             In 2016, SESP introduced android based field processes in addition to the windows based PDA solution.
+
+•             In 2017, SESP added an entire GDPR module to be compliant to  the EU GDPR guidelines
+
+•             In 2018, MDM module was enhanced  adding gamut of  industry standard quality checks and business rules to collected meter and event data.
+
+•             In 2018, Power BI reporting solution for user interactive reporting and real time analytics using ELK stack was  incorporated.
+
+•             In 2018, Event Management module was enhanced further with more configurable rules and administration UI
+
+•             In 2019 renewable energy support with Solar panel installation process has been introduced.
+
+•             In 2019, the android offering has been augmented with industry standard route optimisation algorithm and security features in hand held devices
+
+•             In 2019, .multi database support has been introduced, with the product operational in Oracle, Sqlserver and PostgreSql databases
